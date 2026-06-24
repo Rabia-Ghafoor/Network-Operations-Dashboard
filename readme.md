@@ -1,10 +1,10 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - *Signal Watch*
 
-Submitted by: **Your name here**
+Submitted by: **Rabia Ghafoor**
 
-About this web app: **App description here**
+About this web app: **It's a network operations dashsboard built using vanilla HTML and CSS**
 
-Time spent: **X** hours
+Time spent: **7** hours
 
 ## Required Features
 
