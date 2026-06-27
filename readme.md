@@ -2,9 +2,9 @@
 
 Submitted by: **Rabia Ghafoor**
 
-About this web app: **A network operations dashaboard*
+About this web app: **A network operations dashaboard*#
 
-Time spent: **4** hours
+Time spent: **6** hours
 
 ## Required Features
 
@@ -12,7 +12,7 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [X ] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
   - [X] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
   - [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 
@@ -22,8 +22,9 @@ The following **optional** features are implemented:
 - [X] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
+- PostgreSQL is implemented via Render
 
-- [ ] List anything else that you added to improve the site's functionality!
+- [X] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 

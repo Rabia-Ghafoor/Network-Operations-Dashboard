@@ -9,8 +9,8 @@ async function createAlertsTable() {
     CREATE TABLE IF NOT EXISTS alerts (
       id SERIAL PRIMARY KEY,
       name VARCHAR(255) NOT NULL,
-      pricePoint VARCHAR(10) NOT NULL,
-      audience VARCHAR(255) NOT NULL,
+      severity VARCHAR(255) NOT NULL,
+      service VARCHAR(255) NOT NULL,
       image VARCHAR(255) NOT NULL,
       description TEXT NOT NULL,
       submittedBy VARCHAR(255) NOT NULL,
@@ -29,13 +29,15 @@ async function createAlertsTable() {
 const seedAlertsTable = async () => {
   await createAlertsTable();
 
-  giftData.forEach((gift) => {
+  alertData.forEach((alert) => {
     const insertQuery = {
       text: "INSERT INTO alerts (name, pricePoint, audience, image, description, submittedBy, submittedOn) VALUES ($1, $2, $3, $4, $5, $6, $7)",
     };
 
     const values = [
       alert.name,
+      alert,severity,
+      alert.service,
       alert.image,
       alert.description,
       alert.submittedBy,
