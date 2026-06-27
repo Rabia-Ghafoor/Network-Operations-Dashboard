@@ -28,16 +28,20 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
+<a href="https://youtu.be/1xD--fWPEd8" target="_blank">
+  <img 
+    src="https://img.youtube.com/vi/1xD--fWPEd8/maxresdefault.jpg" 
+    alt="Video Walkthrough" 
+    width="600"
+  />
+</a>
+
+
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+<img src='https://youtu.be/1xD--fWPEd8' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 ## Notes
 
